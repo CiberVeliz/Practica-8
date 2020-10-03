@@ -1,0 +1,22 @@
+version: "3.3"
+
+services:
+  webserver:
+    build: .
+    container_name: webserver
+    ports:
+      - 80:80
+    volumes:
+      - type: bind
+        source: ./app
+        target: /app
+
+  database:
+    image: mariadb
+    container_name: database
+    environment:
+      MYSQL_ROOT_PASSWORD: practica8
+    volumes:
+    - type: bind
+      source: ./database
+      target: /home
