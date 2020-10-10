@@ -1,6 +1,6 @@
-# Practica-8
+# SA Practica-9
 ## José Manuel Véliz Sandoval - 201602959
-Esta rama contiene la todo el contenido de la práctica #8, la cual consiste en utilizar docker-compose para comunicar un servicio web y una base de datos.
+Esta rama contiene la todo el contenido de la práctica #9, la cual consiste en utilizar docker-compose para comunicar un servicio web y una base de datos, mediante el uso de volumenes y creacion de imagenes.
 
 ## Versiones de herramientas utilizadas
 - Docker: 19.03.6, build 369ce74a3c

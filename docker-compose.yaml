@@ -10,13 +10,6 @@ services:
       - type: bind
         source: ./app
         target: /app
-
-  database:
-    image: mariadb
-    container_name: database
-    environment:
-      MYSQL_ROOT_PASSWORD: practica8
-    volumes:
-    - type: bind
-      source: ./database
-      target: /home
+      - type: bind
+        source: ./database
+        target: /database
