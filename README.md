@@ -22,4 +22,4 @@ sudo docker-compose down
 Si en ninguno de los pasos anteriores ocurrió un error, se debería de visualizar la información de la base de datos en http://localhost/.
 
 ## Video
-[Explicación](https://drive.google.com/file/d/1YLmgclPGUdNdPV9wLTQVP4huyFgoQQq2/view?usp=sharing)
+[Explicación](https://drive.google.com/file/d/1dW_pBFtKxxfPIoqvfPs4YmM1pj5EHlz8/view?usp=sharing)
